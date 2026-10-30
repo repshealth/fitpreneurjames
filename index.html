@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FP | Private 1-1 Consulting for Fitness Coaches</title>
+<link rel="icon" type="image/png" href="assets/fp-icon.png">
+<meta name="description" content="Private 1-1 consulting with James. Six years advising fitness coaches, 250+ scaled, £30M+ tracked client revenue. Apply to work directly with me.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap">
+<style>
+
+body{margin:0;background:#070707}
+a{color:#F5B400}a:hover{color:#FFD24D}
+*{box-sizing:border-box}
+.pg{font-family:Montserrat,system-ui,sans-serif;color:#E9E9E9;background:#070707;line-height:1.6}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.narrow{max-width:820px;margin:0 auto;padding:0 24px}
+.bar{background:#F5B400;color:#0A0A0A;font-size:12px;font-weight:600;text-align:center;padding:9px 16px;letter-spacing:.02em}
+.eyebrow{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#F5B400}
+.pill{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(245,180,0,.35);background:rgba(245,180,0,.08);border-radius:999px;padding:6px 14px}
+.h1{font-size:56px;line-height:1.08;font-weight:800;color:#fff;margin:20px 0 0;letter-spacing:-.02em}
+.gold{color:#F5B400}
+.h2{font-size:40px;line-height:1.15;font-weight:800;color:#fff;margin:12px 0 0;letter-spacing:-.01em}
+.lead{font-size:16px;color:#B8B8B8;margin:20px auto 0;max-width:760px}
+.sec{padding:96px 0;text-align:center}
+.sec.alt{background:#0D0D0D}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 28px;border-radius:10px;background:#F5B400;color:#0A0A0A;font-weight:800;font-size:14px;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;border:0;cursor:pointer;font-family:inherit;box-shadow:0 10px 30px rgba(245,180,0,.25)}
+.btn:hover{background:#FFC61A;color:#0A0A0A}
+.btn2{display:inline-flex;align-items:center;gap:8px;min-height:52px;padding:0 22px;border-radius:10px;border:1px solid #2E2E2E;color:#DADADA;text-decoration:none;font-size:14px;font-weight:600}
+.btn2:hover{border-color:#F5B400;color:#fff}
+.video{position:relative;margin:44px auto 0;max-width:860px;border-radius:16px;overflow:hidden;border:1px solid #2A2A2A;background:#111;box-shadow:0 30px 80px rgba(0,0,0,.6)}
+.vtop{display:flex;justify-content:space-between;align-items:center;padding:10px 16px;background:#141414;border-bottom:1px solid #222;font-size:11px;font-weight:700;letter-spacing:.12em;color:#9A9A9A}
+.vbody{position:relative;aspect-ratio:16/9;background:radial-gradient(circle at 70% 30%,#3a2c0a 0%,#151515 55%,#0b0b0b 100%);display:flex;align-items:center;justify-content:center}
+.play{width:84px;height:84px;border-radius:50%;background:#F5B400;display:flex;align-items:center;justify-content:center;border:0;cursor:pointer;box-shadow:0 0 0 12px rgba(245,180,0,.18)}
+.vcap{position:absolute;left:20px;top:18px;text-align:left}
+.vcap .k{font-size:10px;font-weight:700;letter-spacing:.14em;color:#0A0A0A;background:#F5B400;padding:3px 8px;border-radius:4px;display:inline-block}
+.vcap .t{font-size:18px;font-weight:700;color:#fff;margin-top:8px}
+.vph{position:absolute;bottom:56px;left:0;right:0;text-align:center;font-size:12px;color:#8A8A8A}
+.vbot{display:flex;justify-content:space-between;align-items:center;padding:10px 16px;background:#141414;border-top:1px solid #222;font-size:12px;color:#9A9A9A}
+.track{flex:1;height:4px;background:#2A2A2A;border-radius:4px;margin:0 16px;position:relative}
+.track span{position:absolute;left:0;top:0;bottom:0;width:7%;background:#F5B400;border-radius:4px}
+.ctas{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:32px}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:48px auto 0;max-width:900px}
+.stat{background:#111;border:1px solid #232323;border-radius:14px;padding:22px 12px;text-align:center}
+.stat b{display:block;font-size:30px;font-weight:800;color:#F5B400;line-height:1.1}
+.stat span{display:block;font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#9A9A9A;margin-top:8px}
+.prose{text-align:left;font-size:16px;color:#C4C4C4;margin-top:28px}
+.quote{border-left:3px solid #F5B400;padding:4px 0 4px 20px;margin-top:24px;color:#fff;font-weight:700;font-size:18px;line-height:1.5}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:48px;text-align:left}
+.card{background:#111;border:1px solid #232323;border-radius:16px;padding:26px}
+.card h3{margin:16px 0 8px;font-size:18px;color:#fff;font-weight:700}
+.card p{margin:0;font-size:14px;color:#A8A8A8}
+.ico{width:44px;height:44px;border-radius:10px;background:rgba(245,180,0,.1);border:1px solid rgba(245,180,0,.3);display:flex;align-items:center;justify-content:center;color:#F5B400}
+.tgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:48px;text-align:left}
+.tcard{background:#111;border:1px solid #232323;border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
+.thumb{position:relative;aspect-ratio:4/5;background:#000;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.thumb .poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.thumb .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,0) 30%,rgba(0,0,0,0) 60%,rgba(0,0,0,.7) 100%)}
+.thumb .vid{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000}
+.watch{background:none;border:0;padding:10px 0;min-height:44px;color:#F5B400;font-family:inherit;font-size:12px;font-weight:700;cursor:pointer}
+.watch:hover{color:#FFD24D}
+.thumb .tag{position:absolute;top:12px;left:12px;font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;background:#F5B400;color:#0A0A0A;padding:4px 8px;border-radius:4px}
+.thumb .res{position:absolute;left:12px;right:12px;bottom:12px;display:flex;justify-content:space-between;gap:8px;font-size:11px;font-weight:700;background:rgba(0,0,0,.75);border:1px solid #333;border-radius:8px;padding:8px 10px;color:#fff}
+.thumb .res i{font-style:normal;color:#F5B400}
+.thumb .pl{width:56px;height:56px;border-radius:50%;background:rgba(245,180,0,.95);display:flex;align-items:center;justify-content:center;border:0;cursor:pointer;position:relative}
+.tbody{padding:20px;display:flex;flex-direction:column;gap:12px;flex:1}
+.stars{color:#F5B400;letter-spacing:3px;font-size:14px}
+.tbody blockquote{margin:0;font-size:14px;color:#CFCFCF;flex:1}
+.who{display:flex;justify-content:space-between;align-items:flex-end;border-top:1px solid #222;padding-top:14px}
+.who h4{margin:0;color:#fff;font-size:15px}
+.who span{font-size:12px;color:#8A8A8A}
+.who a{font-size:12px;font-weight:700;text-decoration:none}
+.tabs{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:32px}
+.tab{min-height:44px;padding:0 18px;border-radius:999px;border:1px solid #2E2E2E;background:#111;color:#C8C8C8;font-family:inherit;font-weight:600;font-size:13px;cursor:pointer}
+.tab.on{background:#F5B400;border-color:#F5B400;color:#0A0A0A}
+.rgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:36px;text-align:left}
+.wa{background:#0B141A;border:1px solid #1F2C33;border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
+.wah{display:flex;align-items:center;gap:10px;padding:12px 14px;background:#1F2C33}
+.av{width:36px;height:36px;border-radius:50%;background:#F5B400;color:#0A0A0A;font-weight:800;font-size:13px;display:flex;align-items:center;justify-content:center;flex:none}
+.wah .nm{flex:1;min-width:0}
+.wah .nm b{display:block;color:#fff;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.wah .nm span{font-size:11px;color:#8FA3AD}
+.badge{font-size:10px;font-weight:800;color:#0A0A0A;background:#F5B400;border-radius:6px;padding:4px 7px;white-space:nowrap}
+.wab{padding:14px;display:flex;flex-direction:column;gap:8px;flex:1;background:#0B141A}
+.shot{aspect-ratio:3/4;border:1px dashed #33454F;border-radius:10px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;color:#6F8590;font-size:12px;text-align:center;padding:12px}
+.cap{font-size:13px;color:#E6E6E6;font-style:italic}
+.msg{max-width:88%;padding:8px 10px;border-radius:10px;font-size:13px;line-height:1.45}
+.msg small{display:block;text-align:right;font-size:10px;color:#8FA3AD;margin-top:3px}
+.msg.them{background:#1F2C33;color:#E9EDEF;align-self:flex-start}
+.msg.me{background:#005C4B;color:#E9EDEF;align-self:flex-end}
+.waf{display:flex;justify-content:space-between;padding:10px 14px;border-top:1px solid #1F2C33;font-size:11px;color:#6F8590}
+.form{background:#0F0F0F;border:1px solid #262626;border-radius:18px;padding:36px;margin-top:40px;text-align:left;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.full{grid-column:1/-1}
+.fld label{display:block;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#BDBDBD;margin-bottom:8px}
+.fld input,.fld select,.fld textarea{width:100%;min-height:48px;background:#161616;border:1px solid #2E2E2E;border-radius:10px;color:#fff;font-family:inherit;font-size:14px;padding:12px 14px}
+.fld textarea{min-height:96px;resize:vertical}
+.fld input:focus,.fld select:focus,.fld textarea:focus{outline:2px solid #F5B400;outline-offset:1px;border-color:#F5B400}
+.note{font-size:12px;color:#8A8A8A;text-align:center}
+.done{background:#0F0F0F;border:1px solid #F5B400;border-radius:18px;padding:48px 32px;margin-top:40px}
+.done h3{color:#fff;font-size:24px;margin:0 0 8px}
+.faqs{margin-top:40px;display:flex;flex-direction:column;gap:12px;text-align:left}
+.faq{background:#111;border:1px solid #232323;border-radius:14px}
+.faq button{width:100%;min-height:60px;display:flex;justify-content:space-between;align-items:center;gap:16px;background:none;border:0;color:#fff;font-family:inherit;font-size:16px;font-weight:700;text-align:left;padding:18px 22px;cursor:pointer}
+.faq .pm{color:#F5B400;font-size:22px;font-weight:600;flex:none}
+.faq .ans{display:none;padding:0 22px 20px;color:#B4B4B4;font-size:15px}
+.faq.open{border-color:rgba(245,180,0,.45)}
+.faq.open .ans{display:block}
+.foot{border-top:1px solid #1C1C1C;padding:28px 0;font-size:12px;color:#7A7A7A}
+.foot .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.foot nav{display:flex;gap:22px;flex-wrap:wrap}
+.foot nav a{color:#9A9A9A;text-decoration:none}
+.foot nav a:hover{color:#F5B400}
+@media (max-width:900px){
+.h1{font-size:38px}.h2{font-size:30px}
+.cards,.tgrid,.rgrid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:620px){
+.h1{font-size:31px}.h2{font-size:26px}
+.sec{padding:64px 0}
+.cards,.tgrid,.rgrid,.form{grid-template-columns:minmax(0,1fr)}
+.form{padding:22px}
+.vcap .t{font-size:14px}
+}
+
+.shotbtn{position:relative;display:block;width:100%;aspect-ratio:3/4;padding:0;border:0;border-radius:10px;overflow:hidden;background:#111;cursor:zoom-in}
+.shotbtn img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .3s}
+.shotbtn:hover img{transform:scale(1.03)}
+.shotbtn .zoom{position:absolute;left:50%;bottom:12px;transform:translateX(-50%);background:rgba(0,0,0,.75);color:#fff;font-family:inherit;font-size:11px;font-weight:600;padding:6px 12px;border-radius:999px;white-space:nowrap}
+.lb{position:fixed;inset:0;z-index:100;background:rgba(0,0,0,.9);display:flex;align-items:center;justify-content:center;padding:24px;cursor:zoom-out}
+.lb img{max-width:100%;max-height:100%;border-radius:12px;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+.lbx{position:absolute;top:16px;right:16px;width:48px;height:48px;border-radius:50%;border:1px solid #444;background:#111;color:#fff;font-size:26px;line-height:1;cursor:pointer;font-family:inherit}
+
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.btn:disabled{opacity:.6;cursor:wait}
+.vbody video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:#000}
+.vbody.on video{object-fit:contain}
+.hero-ov{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,rgba(0,0,0,.55) 0%,rgba(0,0,0,.15) 45%,rgba(0,0,0,.45) 100%);cursor:pointer}
+.vbody.on .hero-ov{display:none}
+</style>
+</head>
+<body>
+<div class="pg">
+
+<div class="bar">PRIVATE 1-1 ROSTER: <b>Only A Few Coach Slots Open</b> | Strictly 1-on-1 Direct Access With James</div>
+
+<section class="sec" style="padding-top: 64px">
+<div class="wrap">
+<img src="assets/fp-icon.png" alt="FP logo" style="display: block; height: 72px; width: auto; margin: 0 auto">
+<div style="margin-top: 24px"><span class="pill eyebrow">Private 1-1 Consulting For Fitness Coaches</span></div>
+<h1 class="h1">Scale Your Business With<br><span class="gold">Private 1-1 Consulting</span> With James</h1>
+<p class="lead">Six years advising fitness coaches. Not someone who had one good $10k month and decided to start mentoring. I've been in fitness since I was 14, coaching, running gyms, and I'm currently the growth marketer for some of the biggest fitness creators in the space. I don't teach from the sidelines. I sit inside your business, low-ticket app, high-ticket coaching, sales, marketing, retention, content, and fix what's actually costing you money.</p>
+
+<div class="video" id="vsl">
+<div class="vtop"><span>PRIVATE BREAKDOWN // JAMES</span><span>1080p HD</span></div>
+<div class="vbody" id="hero">
+<video id="hero-video" src="https://assets.cdn.filesafe.space/yQRUSZHqg4ZlhKMPqrka/media/69414140ca7298ea0332adcf.mp4#t=0.5" preload="metadata" playsinline></video>
+<div class="hero-ov" id="hero-ov">
+<div class="vcap"><span class="k">FULL BUSINESS BREAKDOWN</span><div class="t">"How I Find The Leak Costing Every Coach Money"</div></div>
+<button class="play" id="hero-play" aria-label="Play breakdown video"><svg width="30" height="30" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="#0A0A0A"/></svg></button>
+</div>
+</div>
+<div class="vbot"><span>Private breakdown from James</span><span style="color: #F5B400">42 coaches watching live</span></div>
+</div>
+
+<div class="ctas">
+<a class="btn" href="#application">Apply To Work With Me Directly</a>
+<a class="btn2" href="#whatsapp-proof">Review WhatsApp Proofs &amp; Receipts</a>
+</div>
+
+<div class="stats">
+<div class="stat"><b>6 Years</b><span>Advising Coaches</span></div>
+<div class="stat"><b>250+</b><span>Coaches Scaled</span></div>
+<div class="stat"><b>£30M+</b><span>Tracked Client Revenue</span></div>
+<div class="stat"><b>24/7</b><span>Private WhatsApp Access</span></div>
+</div>
+</div>
+</section>
+
+<section class="sec alt">
+<div class="narrow">
+<span class="eyebrow">The Difference</span>
+<h2 class="h2">Why Talk to Me Instead of Another Mentor</h2>
+<p class="prose">You know the type. One good month, a screenshot, and a mentorship launched inside a year. I've been doing this for six years. Not six years of running the same playbook either, I'm currently running growth for several big fitness creators, live, right now, alongside my own agency and private clients. What I tell you on a call isn't a result I got once and now sell forever. It's what's working in businesses I'm actively driving this month, built on six years of watching what actually holds up over time and what was always just a lucky quarter.</p>
+<p class="quote">You're not buying access to a community or a library of modules. You're buying my direct attention, from someone still in the arena, not someone who used to be, and not someone who's only been at it for five minutes.</p>
+</div>
+</section>
+
+<section class="sec">
+<div class="wrap">
+<span class="eyebrow">The Whole Picture</span>
+<h2 class="h2">I Look at the Whole Business, Because<br>That's Where It Actually Breaks</h2>
+<p class="lead">I've scaled both ends of this model myself, mass-market low-ticket apps and premium high-ticket 1-1 coaching, over six years and counting, and I run that exact range today across the fitness creators I work with. That breadth is the point. Most of what's silently costing coaches money isn't inside one department, it's in the gap between them.</p>
+<div class="cards">
+<div class="card"><div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg></div><h3>Offer and pricing</h3><p>What you charge, how it's packaged, whether it actually matches your market.</p></div>
+<div class="card"><div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></div><h3>Sales</h3><p>How your calls run, where they leak, what's costing you closes.</p></div>
+<div class="card"><div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 11 18-8-8 18-2-8-8-2z"/></svg></div><h3>Marketing and acquisition</h3><p>Paid, organic, or both, and whether the funnel behind it is actually built to convert.</p></div>
+<div class="card"><div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="m10 8 6 4-6 4z"/></svg></div><h3>Content</h3><p>Whether what you post does commercial work, or just fills a grid.</p></div>
+<div class="card"><div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/></svg></div><h3>Retention</h3><p>The quiet killer in every coaching business. I find the leak before we spend more getting new people in the top.</p></div>
+<div class="card"><div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></div><h3>Systems</h3><p>CRM, automations, follow-up, all the infrastructure that decides whether any of the above runs without you holding it together by hand.</p></div>
+</div>
+</div>
+</section>
+
+<section class="sec alt">
+<div class="wrap">
+<span class="eyebrow">The Numbers</span>
+<h2 class="h2">Proof, Not Hype</h2>
+<div class="stats">
+<div class="stat"><b>6 Years</b><span>Advising Coaches</span></div>
+<div class="stat"><b>250+</b><span>Coaches Scaled</span></div>
+<div class="stat"><b>£30M+</b><span>Tracked Client Revenue</span></div>
+<div class="stat"><b>Live</b><span>Growth For Big Creators</span></div>
+</div>
+<p class="lead" style="margin-top: 36px">Coaches who came to me after a mentorship programme gave them a curriculum and left the actual business untouched. Coaches who went from running every system by hand to taking two days off a week while it runs without them.</p>
+</div>
+</section>
+
+<section class="sec" id="testimonials">
+<div class="wrap">
+<span class="pill eyebrow">Verified Client Outcomes</span>
+<h2 class="h2">Hear Directly From Coaches I Scaled</h2>
+<p class="lead">Real coaches, real tracked numbers, zero fabricated hype. Tap any video to hear it straight from them.</p>
+<div class="tgrid" id="tgrid"></div>
+</div>
+</section>
+
+<section class="sec alt" id="whatsapp-proof">
+<div class="wrap">
+<span class="pill eyebrow">Uncensored Client Receipts</span>
+<h2 class="h2">Loads Of Direct WhatsApp Proof</h2>
+<p class="lead">The real unscripted conversations that happen when coaches message James. Wires landing, deals closing, and breakthroughs happening in real time.</p>
+<div class="tabs" id="tabs"></div>
+<div class="rgrid" id="rgrid"></div>
+</div>
+</section>
+
+<section class="sec">
+<div class="narrow">
+<span class="eyebrow">No Pitch</span>
+<h2 class="h2">What the Call With Me Actually Is</h2>
+<p class="lead">Not a pitch. A proper deep dive, your business, your numbers, what's working, what's stuck, where you want to be in six months. I ask the questions, you answer honestly, and by the end I'll tell you straight whether I can help and what it takes. If I can't, I'll say that too.</p>
+<div class="ctas"><a class="btn" href="#application">Apply To Work With Me</a></div>
+</div>
+</section>
+
+<section class="sec alt" id="application">
+<div class="narrow">
+<span class="eyebrow">Apply To Work With Me</span>
+<h2 class="h2">Apply to Work With Me</h2>
+<p class="lead">A few honest questions so I know what I'm looking at before we speak.</p>
+<form class="form" id="apply">
+<div class="fld"><label for="f-name">Name *</label><input id="f-name" name="name" required placeholder="Your full name"></div>
+<div class="fld"><label for="f-contact">Email / WhatsApp *</label><input id="f-contact" name="contact" required placeholder="you@email.com"></div>
+<div class="fld full"><label for="f-rev">Current monthly revenue *</label><select id="f-rev" name="revenue" required><option value="">Select range</option><option>Under £5k/month</option><option>£5k - £10k/month</option><option>£10k - £25k/month</option><option>£25k - £50k/month</option><option>£50k+/month</option></select></div>
+<div class="fld full"><label for="f-sell">What are you selling right now, and at what price? *</label><textarea id="f-sell" name="selling" required placeholder="E.g. 12-week coaching at £1,500, low-ticket app at £29/month"></textarea></div>
+<div class="fld full"><label for="f-block">What's the single biggest thing holding the business back? *</label><textarea id="f-block" name="blocker" required placeholder="Be honest. Leads, sales, retention, offer, systems..."></textarea></div>
+<div class="fld"><label for="f-ads">Running paid ads currently, and is there budget? *</label><select id="f-ads" name="ads" required><option value="">Select one</option><option>Yes - running ads now with budget</option><option>Not yet, but I have budget to start</option><option>No budget for ads right now</option></select></div>
+<div class="fld"><label for="f-mode">Do you want to help build this, or need it fully handled? *</label><select id="f-mode" name="mode" required><option value="">Select one</option><option>I want to help build this with you</option><option>I need it fully handled</option></select></div>
+<div class="hp" aria-hidden="true"><label for="f-web">Website</label><input id="f-web" name="website" tabindex="-1" autocomplete="off"></div>
+<div class="full"><button class="btn" type="submit" style="width: 100%">Apply Now</button></div>
+<p class="note full" id="form-err" role="alert" hidden style="margin: 0; color: #FF8A80">Something went wrong sending that. Check your connection and try again.</p>
+<p class="note full" style="margin: 0">I review every application personally. If it's a fit, you'll hear from me directly.</p>
+</form>
+<div class="done" id="done" hidden><h3>Application received</h3><p style="margin: 0; color: #B8B8B8">I review every application personally. If it's a fit, you'll hear from me directly.</p></div>
+</div>
+</section>
+
+<section class="sec">
+<div class="narrow">
+<span class="eyebrow">Clarity First</span>
+<h2 class="h2">Frequently Asked Questions</h2>
+<div class="faqs" id="faqs"></div>
+</div>
+</section>
+
+<section class="sec alt">
+<div class="narrow">
+<img src="assets/fp-icon.png" alt="FP logo" style="display: block; height: 60px; width: auto; margin: 0 auto">
+<h2 class="h2" style="margin-top: 24px">Still In The Arena. Working With You, Not Above You.</h2>
+<p class="lead">Stop guessing your next growth phase. Apply for direct 1-1 consulting and fix what's actually costing you money.</p>
+<div class="ctas"><a class="btn" href="#application">Apply To Work With Me</a></div>
+</div>
+</section>
+
+<div class="lb" id="lb" hidden><button class="lbx" aria-label="Close enlarged screenshot">×</button><img src="" alt=""></div>
+
+<footer class="foot">
+<div class="wrap">
+<span>© 2026 FP. All Rights Reserved.</span>
+<nav aria-label="Footer"><a href="#vsl">Breakdown</a><a href="#testimonials">Testimonials</a><a href="#whatsapp-proof">WhatsApp Proof</a><a href="#application">Apply</a></nav>
+</div>
+</footer>
+
+</div>
+
+<script>var MEDIA = {
+  "p-gabby": "assets/posters/gabby.jpg",
+  "v-gabby": "assets/videos/gabby.mp4",
+  "p-river": "assets/posters/river.jpg",
+  "v-river": "assets/videos/river.mp4",
+  "p-ryan": "assets/posters/ryan.jpg",
+  "v-ryan": "assets/videos/ryan.mp4",
+  "p-josh": "assets/posters/josh.jpg",
+  "v-josh": "assets/videos/josh.mp4",
+  "p-rob": "assets/posters/rob.jpg",
+  "v-rob": "assets/videos/rob.mp4",
+  "p-brad": "assets/posters/brad.jpg",
+  "v-brad": "assets/videos/brad.mp4",
+  "p-callum": "assets/posters/callum.jpg",
+  "v-callum": "assets/videos/callum.mp4",
+  "w-tg": "assets/proof/tg.jpg",
+  "w-jb": "assets/proof/jb.jpg",
+  "w-dm": "assets/proof/dm.jpg",
+  "w-oc": "assets/proof/oc.jpg",
+  "w-ls": "assets/proof/ls.jpg"
+};</script>
+
+<script>
+(function () {
+  function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+  function b64(id, type) {
+    if (window.MEDIA && MEDIA[id]) return MEDIA[id];
+    var el = document.getElementById(id); if (!el) return '';
+    var bin = atob(el.textContent.trim()), n = bin.length, u = new Uint8Array(n);
+    for (var i = 0; i < n; i++) u[i] = bin.charCodeAt(i);
+    return URL.createObjectURL(new Blob([u], { type: type }));
+  }
+  var heroV = document.getElementById('hero-video');
+  function startHero() {
+    document.getElementById('hero').classList.add('on');
+    heroV.controls = true; heroV.currentTime = 0; heroV.play();
+    document.querySelectorAll('.thumb video').forEach(function (v) { v.pause(); });
+  }
+  document.getElementById('hero-ov').addEventListener('click', startHero);
+  var PLAY = '<svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="#0A0A0A"/></svg>';
+
+  var testimonials = [
+    { key: 'gabby', name: 'Gabby', role: 'Online Fitness Coach', tag: '1-1 Client', result: 'Scaled With 1-1 Consulting', badge: 'Verified', quote: "James didn't hand me a playbook and disappear. He sat inside my funnel, rewrote my offer, and within days the calendar was full. The 1-1 access is the whole point." },
+    { key: 'river', name: 'River', role: 'High-Ticket Coaching', tag: 'Scale Partner', result: 'Calendar Filled Back-To-Back', badge: 'Booked Solid', quote: "I'd done two mentorship programmes before and both left the actual business untouched. James found the leak in the first call. Now I'm booking out and taking days off." },
+    { key: 'ryan', name: 'Ryan', role: 'Coach & App Founder', tag: '1-1 Client', result: 'Profitable Ads From Day 1', badge: 'Day 1', quote: "He runs growth for the big creators AND for me at the same time. What he told me on the call was working in his other accounts that same week, not a result from three years ago." },
+    { key: 'josh', name: 'Josh', role: 'Online Fitness Coach', tag: '1-1 Client', result: 'Offer Rebuilt, Revenue Up', badge: 'Offer Rebuilt', quote: "James found what was actually costing me money in the first session. Not theory, the real leak in my business. Fixed it and the numbers moved within weeks." },
+    { key: 'rob', name: 'Rob', role: 'High-Ticket Coaching', tag: 'Scale Partner', result: 'Systems Built, Days Off Won', badge: 'Automated', quote: "Went from running every system by hand to taking two days off a week while it runs without me. That only happens because James looks at the whole business, not just ads." },
+    { key: 'brad', name: 'Brad', role: 'Coach & App Founder', tag: '1-1 Client', result: 'Low-Ticket App Scaled', badge: 'App Scaled', quote: "He's scaled both ends, low-ticket apps and high-ticket 1-1. That breadth is the point. He knew exactly where my app was bleeding and how to fix it." },
+    { key: 'callum', name: 'Callum', role: 'Online Fitness Coach', tag: '1-1 Client', result: 'Retention Leak Plugged', badge: 'Retention Fixed', quote: "The quiet killer in my business was retention and nobody caught it. James found the leak before we spent more getting new people in the top. That saved me a fortune." }
+  ];
+  var videoUrls = {};
+  var tgrid = document.getElementById('tgrid');
+  tgrid.innerHTML = testimonials.map(function (t) {
+    var poster = b64('p-' + t.key, 'image/jpeg');
+    t.poster = poster;
+    return '<article class="tcard"><div class="thumb" id="th-' + t.key + '">' +
+      '<img class="poster" src="' + poster + '" alt="' + esc(t.name) + ' video testimonial">' +
+      '<div class="shade" aria-hidden="true"></div><span class="tag">' + esc(t.tag) + '</span>' +
+      '<button class="pl" data-play="' + t.key + '" aria-label="Play ' + esc(t.name) + '&#39;s video testimonial">' + PLAY + '</button>' +
+      '<div class="res"><span>' + esc(t.result) + '</span><i>' + esc(t.badge) + '</i></div></div>' +
+      '<div class="tbody"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>"' + esc(t.quote) + '"</blockquote>' +
+      '<div class="who"><div><h4>' + esc(t.name) + '</h4><span>' + esc(t.role) + '</span></div><button class="watch" data-play="' + t.key + '">Watch Full</button></div></div></article>';
+  }).join('');
+  tgrid.addEventListener('click', function (e) {
+    var b = e.target.closest('[data-play]'); if (!b) return;
+    var key = b.getAttribute('data-play');
+    document.querySelectorAll('.thumb video').forEach(function (v) { v.pause(); });
+    heroV.pause();
+    var th = document.getElementById('th-' + key);
+    if (!th.querySelector('video')) {
+      if (!videoUrls[key]) videoUrls[key] = b64('v-' + key, 'video/mp4');
+      var t = testimonials.filter(function (x) { return x.key === key; })[0];
+      th.innerHTML = '<video class="vid" src="' + videoUrls[key] + '" poster="' + t.poster + '" controls playsinline></video>';
+    }
+    var v = th.querySelector('video'); v.play();
+    if (b.classList.contains('watch')) th.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  });
+
+  function m(text, time, mine) { return { text: text, time: mine ? time + ' ✓✓' : time, cls: mine ? 'me' : 'them' }; }
+  var receipts = [
+    { cat: 'deals', ini: 'TG', name: 'Taimar Gilbert', badge: 'Closed 6 • 89 Inquiries', caption: 'Closed 6 so far, 18 booked in, up to 89 enquiries now!', when: 'Today at 2:23 PM' },
+    { cat: 'deals', ini: 'JB', name: 'CoachedByJB', badge: 'Calendar Maxed Out', caption: "It's working already - Calendar filled back-to-back & 2 more pending ATM", when: 'Today at 8:44 AM' },
+    { cat: 'revenue', ini: 'DM', name: 'Dave Myers', badge: '£0.17/Click Ads Scale', caption: 'Results since we added the graphics - £0.17 clicks & high volume leads', when: 'Today at 1:27 PM' },
+    { cat: 'revenue', ini: 'OC', name: 'Online Coaching Tier 2', badge: '€5,300+ Stripe Cash', caption: '€5,300 in 2 months with new Stripe setup + €499 sales popping regularly', when: 'Today at 8:28 PM' },
+    { cat: 'revenue', ini: 'LS', name: 'Launch Squad', badge: '£10,000 Launch Done', caption: '59 shredders joined, expecting close to £10k revenue from this launch!', when: 'Today at 9:16 AM' },
+    { cat: 'revenue', ini: 'MB', name: 'Marcus B. (High-Ticket Coach)', badge: '$120,000 Upfront Cash', when: 'Tuesday at 11:02 AM', msgs: [
+      m('BRO. Just got off the call with the prospect.', '11:01 AM'),
+      m('They just accepted the $120,000 upfront annual retainer without flinching.', '11:02 AM'),
+      m('Told you. When you frame the leverage points we drilled on Monday, price becomes irrelevant. Send the invoice now.', '11:03 AM', true),
+      m('Already done. Stripe notification just popped. You literally changed our entire business model man.', '11:04 AM')] },
+    { cat: 'team', ini: 'HL', name: 'Henrik L. (App + Coaching)', badge: '£85k ➔ £342k/mo Scaling', when: 'Monday at 4:20 PM', msgs: [
+      m('Monthly numbers just finalized for August.', '4:19 PM'),
+      m('Finished at £342,000 gross with 68% net margin. Before we started 4 months ago we were stuck at £85k bleeding cash.', '4:20 PM'),
+      m("Remarkable execution. Let's install the Tier-2 operators next week so you can take that October vacation.", '4:22 PM', true),
+      m("Couldn't have done it without the weekly 1-1 sessions. Best investment I've ever made.", '4:23 PM')] },
+    { cat: 'deals', ini: 'CL', name: 'Chloe & Liam (Coaching Duo)', badge: '6.5x Conversion Boost', when: 'Thursday at 8:12 PM', msgs: [
+      m('Our outbound script conversion went from 1.2% to 7.8% after your rewrite.', '8:10 PM'),
+      m('We have 14 qualified discovery calls booked tomorrow alone. Sales rep is freaking out lol', '8:11 PM'),
+      m('Cap it at 6 maximum per rep or show-up rate will drop. Use the pre-call filter I sent.', '8:13 PM', true),
+      m('Copy that chief! Locked in.', '8:14 PM')] },
+    { cat: 'revenue', ini: 'KT', name: 'Kareem T. (Low-Ticket App)', badge: '€180k Retainer Landed', when: 'Friday at 1:45 PM', msgs: [
+      m('Hey James, quick update: The Swedish client wired €50k deposit directly to our bank.', '1:44 PM'),
+      m('Contract total €180,000 over 12 months. That brings our Q3 committed revenue to €640,000.', '1:45 PM'),
+      m("Phenomenal work. You've officially crossed into 8-figure pipeline territory.", '1:47 PM', true)] }
+  ];
+  var tabs = [
+    { id: 'all', label: 'All Receipts (' + receipts.length + ')' },
+    { id: 'revenue', label: 'Revenue & Wire Transfers' },
+    { id: 'deals', label: 'Deal Closures & Pipeline' },
+    { id: 'team', label: 'Team & Margin Shifts' }
+  ];
+  var filter = 'all';
+  var SHOT = '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-5-5L5 21"/></svg>';
+  var shotCache = {};
+  function shotUrl(ini) { var k = ini.toLowerCase(); if (!shotCache[k]) shotCache[k] = b64('w-' + k, 'image/jpeg'); return shotCache[k]; }
+  function renderReceipts() {
+    document.getElementById('tabs').innerHTML = tabs.map(function (t) {
+      return '<button class="tab' + (t.id === filter ? ' on' : '') + '" data-tab="' + t.id + '" aria-pressed="' + (t.id === filter) + '">' + esc(t.label) + '</button>';
+    }).join('');
+    document.getElementById('rgrid').innerHTML = receipts.filter(function (r) { return filter === 'all' || r.cat === filter; }).map(function (r) {
+      var body = r.msgs
+        ? r.msgs.map(function (x) { return '<div class="msg ' + x.cls + '">' + esc(x.text) + '<small>' + esc(x.time) + '</small></div>'; }).join('')
+        : '<button class="shotbtn" data-shot="' + r.ini + '" aria-label="Enlarge WhatsApp screenshot from ' + esc(r.name) + '"><img src="' + shotUrl(r.ini) + '" alt="WhatsApp screenshot from ' + esc(r.name) + '"><span class="zoom">Tap / Click To Enlarge</span></button><p class="cap" style="margin: 4px 0 0">"' + esc(r.caption) + '"</p>';
+      return '<article class="wa"><div class="wah"><div class="av" aria-hidden="true">' + esc(r.ini) + '</div><div class="nm"><b>' + esc(r.name) + '</b><span>online • 1-1 Private Consulting</span></div><span class="badge">' + esc(r.badge) + '</span></div>' +
+        '<div class="wab">' + body + '</div><div class="waf"><span>End-to-end encrypted proof</span><span>' + esc(r.when) + '</span></div></article>';
+    }).join('');
+  }
+  var lb = document.getElementById('lb'), lbImg = lb.querySelector('img');
+  document.getElementById('rgrid').addEventListener('click', function (e) {
+    var b = e.target.closest('[data-shot]'); if (!b) return;
+    var im = b.querySelector('img'); lbImg.src = im.src; lbImg.alt = im.alt; lb.hidden = false; lb.querySelector('.lbx').focus();
+  });
+  function closeLb() { lb.hidden = true; }
+  lb.addEventListener('click', closeLb);
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !lb.hidden) closeLb(); });
+  document.getElementById('tabs').addEventListener('click', function (e) {
+    var b = e.target.closest('[data-tab]'); if (!b) return; filter = b.getAttribute('data-tab'); renderReceipts();
+  });
+  renderReceipts();
+
+  var faqs = [
+    ['Am I actually speaking to you, or a coach on your team?', "Me. Every call, every audit, every WhatsApp message. That's the entire point of this being private 1-1."],
+    ['How long have you actually been doing this?', 'Six years advising coaches, on top of a lifetime in fitness before that. Not a one-off good month I turned into a mentorship.'],
+    ["If you're working with big creators, how do you have time for me?", "I take on a limited number of private clients alongside that work, deliberately, so it stays 1-1 and not another team hand-off. That's also why I only work with a small number of coaches at a time."],
+    ['Is this a course or membership?', 'No. No modules, no group calls, no community to get lost in. You, me, your business.'],
+    ["What if I've already done a mentorship programme?", 'Most of the people I take on have. A lot of the first month is fixing what that programme left half-built.'],
+    ['Do you just run ads, or actually look at the whole business?', "Whole business. Ads are one lever. If retention's leaking or the offer's underpriced, more ad spend just loses money faster."]
+  ];
+  var open = 0;
+  function renderFaqs() {
+    document.getElementById('faqs').innerHTML = faqs.map(function (f, i) {
+      var on = i === open;
+      return '<div class="faq' + (on ? ' open' : '') + '"><button data-faq="' + i + '" aria-expanded="' + on + '"><span>' + esc(f[0]) + '</span><span class="pm" aria-hidden="true">' + (on ? '−' : '+') + '</span></button><div class="ans">' + esc(f[1]) + '</div></div>';
+    }).join('');
+  }
+  document.getElementById('faqs').addEventListener('click', function (e) {
+    var b = e.target.closest('[data-faq]'); if (!b) return; var i = +b.getAttribute('data-faq'); open = open === i ? -1 : i; renderFaqs();
+  });
+  renderFaqs();
+
+  // Paste your Google Apps Script web app URL here (ends in /exec).
+  var FORM_ENDPOINT = 'https://script.google.com/macros/s/AKfycbxQonyBgsGAlCpTvHP622C2sc9T1zB0qbh3Uw77EWV-4rietPkRBzqW7eCUW9NVR57u0g/exec';
+
+  var form = document.getElementById('apply');
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var btn = form.querySelector('button[type="submit"]'), err = document.getElementById('form-err');
+    err.hidden = true;
+    var data = new URLSearchParams(new FormData(form));
+    data.append('page', location.href);
+    function done() { form.hidden = true; document.getElementById('done').hidden = false; }
+    if (FORM_ENDPOINT.indexOf('https://script.google.com/') !== 0) { done(); return; }
+    btn.disabled = true; btn.textContent = 'Sending...';
+    fetch(FORM_ENDPOINT, { method: 'POST', mode: 'no-cors', body: data })
+      .then(done)
+      .catch(function () {
+        btn.disabled = false; btn.textContent = 'Apply Now';
+        err.hidden = false;
+      });
+  });
+})();
+</script>
+</body>
+</html>
